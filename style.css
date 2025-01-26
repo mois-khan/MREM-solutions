@@ -1,0 +1,171 @@
+/* orange color used - #FF9700
+   background colour - #0E155A
+   footer colour -  #3128A0
+*/   
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100%;
+    background-color: #0E155A;
+}
+
+/* HEADER STYLES*/
+
+.header {
+    width: 100%;
+    margin-left: 0%;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    flex-direction: column;
+}
+
+.main-heading {
+    color: #FF9700;
+    font-weight: bold;
+    
+}
+
+.tagline {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+/* HERO SECTION STYLES */
+
+.hero-sec {
+    width: 60%;
+    margin-left: 20%;
+    height: max-content;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.select-year {
+    text-align: center;
+    padding: 10px;
+}
+
+.all-btns {
+    display: flex;
+}
+
+/* all buttons container styles */
+
+.btech-buttons, .mba-buttons {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    transition: box-shadow 0.3s ease; 
+}
+
+.mba-buttons {
+    justify-content: right;
+    align-items: center;
+}
+
+.btech-buttons h5, .mba-buttons h5 {
+    background-color: #FF9700;
+    border-radius: 4px;
+    padding: 5px 25px;
+    text-align: center;
+    color: white;
+}
+
+/* button design*/
+
+.btech-buttons button, .mba-buttons button {
+    padding: 10px;
+    border: 1px solid  #FF9700;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #FF9700;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btech-buttons button:hover, .mba-buttons button:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btech-buttons button:active, .mba-buttons button:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+}
+
+.year1-2, .year3-4{
+    display: flex;
+    gap: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #3128A0;
+    padding: 0px 0px;
+    text-align: center;
+    color: white;
+}
+
+footer span {
+    color: #FF9700;
+    text-decoration: underline
+}
+
+
+footer h3 {
+    background-color: #FF9700;
+    font-style: italic;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+    
+    .all-btns {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .btech-buttons, .mba-buttons {
+        width: 100%;
+        
+    }
+    
+    .year1-2, .year3-4{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .btech-buttons button, .mba-buttons button {
+        padding: 15px 80px;
+    }
+    
+    .hero-sec {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .main-container {
+        
+    }
+}

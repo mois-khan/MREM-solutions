@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+
+
+body  {
+    width: 100%;
+    background-color: #0E155A;
+}
+
+/* HEADER STYLES*/
+
+.header {
+    width: 100%;
+    margin-left: 0%;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    flex-direction: column;
+}
+
+.main-heading {
+    color: #FF9700;
+    font-weight: bold;
+    
+}
+
+.tagline {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+/* HERO SECTION STYLES */
+
+.hero-sec {
+    width: 80%;
+    margin-left: 10%;
+    height: max-content;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.select-year {
+    text-align: center;
+    padding: 10px;
+}
+
+.sub-div {
+    display: flex;
+}
+
+.sec1-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    transition: box-shadow 0.3s ease; 
+    padding: 20px;
+}
+
+.sec1-2 h5 {
+    background-color: #FF9700;
+    border-radius: 4px;
+    padding: 5px 25px;
+    text-align: center;
+    color: white;
+}
+
+.labs, .subjects{
+    justify-content: right;
+    align-items: center;
+}
+
+.sec1-2 button {
+    width: 120px;
+    padding: 10px;
+    border: 1px solid #FF9700;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #FF9700;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sec1-2 button:hover{
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sec1-2 button:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+}
+
+.sub-btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #3128A0;
+    padding: 0px 0px;
+    text-align: center;
+    color: white;
+}
+
+footer span {
+    color: #FF9700;
+    text-decoration: underline
+}
+
+
+footer h3 {
+    margin-top: 50px;
+    background-color: #FF9700;
+    font-style: italic;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
